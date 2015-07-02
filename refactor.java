@@ -20,3 +20,17 @@ public void function2(){
     
 
 }
+
+
+==================================================
+    
+function AskDeleteSchedule() {
+    if (confirm("Are you sure you want to delete this Schedule?") == true)
+        return true;
+    else
+        return false;
+}        
+
+==================================================
+    
+    
